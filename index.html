@@ -55,5 +55,28 @@ git add index.html
 git commit -m "formatting done correclty"
 
 </p>
+
+
+
+Adding Remote Repository
+
+git remote add origin <link>
+
+git push origin master
+
+# Installing Httpd on Ec2 - to make our server a webserver
+
+sudo bash
+yum install httpd -y
+systemctl start httpd
+
+# deploy code on ec2 server
+
+git clone <link >
+
+cp repositoryname/index.html /var/www/html/
+
+
+
 </body>
 </html>
